@@ -35,10 +35,10 @@ int main() {
     for(int i=0; i<n; i++) {
         arr[i] = i;
     }
-    int index = binarySearch(arr, 1);
+    int index = binarySearch(arr, 100);
     cout << endl;
     cout << index << endl;
-    index = linearSearch(arr, 1);
+    index = linearSearch(arr, 100);
     cout << endl;
     cout << index << endl;
 }
